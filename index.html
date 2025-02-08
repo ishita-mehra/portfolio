@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ishita's Portfolio</title>
+    <link rel="stylesheet" href="../static/styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <section class="hello">
+      <div class="hello_text">
+        <h2 class="heading">Hi !</h2>
+        <h1 class="name">I am Ishita</h1>
+        <p class="caption">I am an Embedded Software Developer.</p>
+      </div>
+    </section>
+
+    <section class="about">
+      <div class="about_text">
+        <h2>About Me</h2>
+        <p>
+          I am a passionate Embedded Systems Developer with a deep interest in
+          designing and optimizing embedded solutions. With expertise in C, C++,
+          and low-level programming, I specialize in developing firmware and
+          real-time applications for microcontrollers and embedded devices. My
+          experience includes working with ARM Cortex, AVR, and PIC
+          microcontrollers, along with RTOS, IoT protocols, and
+          hardware-software integration. I enjoy solving complex problems,
+          optimizing performance, and bringing innovative embedded solutions to
+          life. Beyond coding, I am always eager to explore new technologies,
+          refine my debugging skills, and stay updated with industry trends.
+          Whether it's firmware development, peripheral interfacing, or system
+          optimization, I strive to create efficient and scalable embedded
+          solutions. Let’s build the future of embedded systems together!
+        </p>
+      </div>
+      <div class="about_img">
+        <img src="../static/back1.png" alt="background" />
+      </div>
+    </section>
+
+    <section class="skills">
+      <h2 class="skills_heading">Skills</h2>
+      <div class="skills_list">
+        <div class="skill">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/8/87/Arduino_Logo.svg"
+            alt="Arduino Logo"
+            class="arduino-icon"
+          />
+          <h3>Arduino</h3>
+          <p>Embedded systems and IoT projects.</p>
+        </div>
+        <div class="skill">
+          <i class="fas fa-microchip"></i>
+          <h3>Microcontrollers</h3>
+          <p>Programming ARM, AVR, and PIC microcontrollers.</p>
+        </div>
+        <div class="skill">
+          <i class="fas fa-code"></i>
+          <h3>C / C++</h3>
+          <p>High-performance system programming and embedded development.</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-html5"></i>
+          <h3>HTML</h3>
+          <p>Structuring web content with semantic HTML.</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-css3-alt"></i>
+          <h3>CSS</h3>
+          <p>Styling websites with modern design techniques.</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-js"></i>
+          <h3>JavaScript</h3>
+          <p>Interactive and dynamic web applications.</p>
+        </div>
+        <div class="skill">
+          <i class="fab fa-python"></i>
+          <h3>Python</h3>
+          <p>Automation, scripting, and backend development.</p>
+        </div>
+        <div class="skill">
+          <i class="fas fa-database"></i>
+          <h3>Databases</h3>
+          <p>Designing and managing SQL & NoSQL databases.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="experience">
+      <h2>Work Experience</h2>
+      <p class="exp-intro">
+        With a passion for embedded systems, I have gained hands-on experience
+        working with microcontrollers, firmware development, and low-level
+        programming. Here’s a glimpse of my professional journey.
+      </p>
+
+      <div class="experience-item">
+        <h3>Embedded Software Developer</h3>
+        <p class="company">
+          DigitalMonk &nbsp; | &nbsp;
+          <span class="duration">Oct 2024 - Present</span>
+        </p>
+        <p class="exp-description">
+          Developing and optimizing embedded software for microcontrollers,
+          ensuring efficient real-time performance. Working with STM32 and NRF
+          microcontrollers to build reliable systems.
+        </p>
+      </div>
+
+      <!-- to add next -->
+      <!-- <hr class="divider"> -->
+      <!-- <div class="experience-item"> -->
+      <!-- <h3>Firmware Engineer</h3> -->
+      <!-- <p class="company">ABC Embedded Systems &nbsp; | &nbsp; <span class="duration">July 2020 - Dec 2021</span></p> -->
+      <!-- <p class="exp-description">Designed and implemented low-level firmware for embedded devices, enhancing device performance and debugging real-time issues.</p> -->
+      <!-- </div> -->
+    </section>
+
+    <section class="certificates">
+      <h2>Certifications & Licenses</h2>
+      <p class="cert-intro">
+        Continuous learning and upskilling have been integral to my career. Here
+        are some of the certifications and licenses I have earned over time.
+      </p>
+
+      <div class="certificate-item">
+        <img
+          src="../certificates/html_css.jpg"
+          alt="HTML & CSS Certification"
+          class="cert-image"
+          onclick="openModal(this)"
+        />
+        <h3>HTML & CSS Certification</h3>
+        <p class="cert-provider">
+          Issued by Lets Updgrade &nbsp; | &nbsp;
+          <span class="cert-year">2023</span>
+        </p>
+        <p class="cert-description">HTML & CSS Programming Essenstials Bootcamp(5 Days).</p>
+      </div>
+
+      <hr class="divider" />
+
+      <div class="certificate-item">
+        <img
+          src="../certificates/javascript.jpg"
+          alt="JavaScript Programming"
+          class="cert-image"
+          onclick="openModal(this)"
+        />
+        <h3>JavaScript Programming</h3>
+        <p class="cert-provider">
+          Issued by Lets Updgrade &nbsp; | &nbsp; <span class="cert-year">2023</span>
+        </p>
+        <p class="cert-description">
+         JavaScript Programming Essenstials Bootcamp(3 Days).
+        </p>
+      </div>
+
+      <hr class="divider" />
+
+      <div class="certificate-item">
+        <img
+          src="../certificates/python.jpg"
+          alt="Python Programming"
+          class="cert-image"
+          onclick="openModal(this)"
+        />
+        <h3>Python Programming</h3>
+        <p class="cert-provider">
+          Issued by Lets Updgrade &nbsp; | &nbsp;
+          <span class="cert-year">2023</span>
+        </p>
+        <p class="cert-description">
+          Python Programming Essenstials Bootcamp(3 Days).
+        </p>
+      </div>
+    </section>
+
+    <!-- Modal -->
+    <div id="imageModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img class="modal-content" id="modalImg" />
+      <div id="caption"></div>
+    </div>
+
+    <section class="contact">
+      <h2>Contact Me</h2>
+      <p>Let's connect! Feel free to reach out to me on these platforms.</p>
+      <div class="contact-icons">
+        <a
+          href="https://www.linkedin.com/in/ishitamehra16/"
+          target="_blank"
+          class="contact-link"
+        >
+          <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
+        <a
+          href="https://github.com/ishita-mehra"
+          target="_blank"
+          class="contact-link"
+        >
+          <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="mailto:itzishita2003@gmail.com" class="contact-link">
+          <i class="fas fa-envelope"></i> Gmail
+        </a>
+      </div>
+    </section>
+
+    <script>
+      function openModal(imgElement) {
+        var modal = document.getElementById("imageModal");
+        var modalImg = document.getElementById("modalImg");
+        var caption = document.getElementById("caption");
+
+        modal.style.display = "flex";
+        modalImg.src = imgElement.src;
+        caption.innerHTML = imgElement.alt;
+      }
+
+      function closeModal() {
+        document.getElementById("imageModal").style.display = "none";
+      }
+    </script>
+  </body>
+</html>
